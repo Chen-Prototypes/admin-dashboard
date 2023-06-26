@@ -195,6 +195,7 @@ body {
   display: grid;
   grid-template-columns: 5fr 1fr;
   grid-template-rows: 1fr 1fr;
+  background-color: #c2c0c0;
 }
 
 /* Projects */
@@ -233,13 +234,40 @@ body {
   cursor: pointer;
 }
 
+/* announcements */
+
 .content > .announcements {
-  grid-row: 2 / 3;
+  grid-row: 1 / 2;
   grid-column: 2 / 3;
+  padding: 30px 30px 0px 0px;
+}
+.announce-container {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90%;
+}
+.announcement {
+  cursor: pointer;
+}
+.announcement > .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.announcement > .description {
+  font-size: 16px;
+  color: #a0a0a0;
+}
+.announce-container > .announcement {
+
 }
 
+
 .content > .trending {
-  grid-row: 1 / 2;
+  grid-row: 2 / 3;
   grid-column: 2 / 3;
 }
 
