@@ -20,5 +20,5 @@ project.addEventListener('click', () => {
 });
 project = document.querySelector('.recipes');
 project.addEventListener('click', () => {
-    window.location.href = 'https://github.com/Chen-Prototypes/etch-a-sketch';
+    window.location.href = 'https://github.com/Chen-Prototypes/odin-recipes';
 });
